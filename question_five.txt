@@ -1,0 +1,7 @@
+Brady Neeb
+bneeb@mail.smcvt.edu
+Final Question #5
+
+What are the main advantages of keeping code in a versioning system such as Mercurial or git?
+
+The main advantage of keeping code in a version control system is to keep your code backed up, off of the hard drive of your computer. If I was working on a project and uploaded my code to GitHub, and my computer broke, I still have my code backed up and up to date. Secondly, GitHub and other version control systems allow for multiple contributers to work on their own branch of the code. After they finish, they can pull request their code to be implemented into the main branch of the project. This is useful for big teams working on their own division of code. Lastly, another advantage of using version control systems is to share your work with the rest of the world. When you make a repository in GitHub, you can choose to make it public. With the help of licensing, you can share and contribute your work to the community. Other people can chip in and help you with your code, and it can inspire them to make their own project as well. Overall, using a version control system such as git helps developers tremendously for many reasons. 

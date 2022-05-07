@@ -1,0 +1,9 @@
+Brady Neeb
+bneeb@mail.smcvt.edu
+Final Question #2
+
+Give three advantages to the use of floating point arithmetic. What are the chief disadvantages?
+
+One advantage of floating point arithmetic is the fact that it represents decimal values well. Values between integers can be difficult to represent in binary, but floating point numbers can represent them well within reason. Secondly, floating point numbers can represent a large range of values. Although they can not represent every real number, they do a very good job of getting as close as possible to the correct number within a certain amount of decimal places. Third, floating point arithmetic is useful when dealing with decimals of varying length. For example, when calculating pi, there is one number to the left of the decimal, and infinite to the right. FP's are useful here becasue the decimal length can be flexible when dealing with a variety of values. There is no fixed length of decimal values when dealing with floating point numbers.
+
+The chief disadvantages of floating point numbers is the fact that they can lost precision. For example, if you add two floats, 0.1 + 0.2, the answer is not 0.3 (As seen in question_two.py). This can be problematic during a complex problem that needs absolute accuracy. There is also the problem of overflow when doing arithmetic with floating point numbers. If two numbers are added and they are large enough, the bits will overflow, and a nonsensical answer will be outputted. 

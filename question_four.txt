@@ -1,0 +1,7 @@
+Brady Neeb
+bneeb@mail.smcvt.edu
+Final Question #4
+
+State the right way to round reals to a fixed number of decimal places. Give two examples of the right way and wrong way that is traditionally used.
+
+In modern computers, roundoff happens when the floating points available on the machine miss the number that we have. One example of the right way to roundoff is Exact Rounding. This method involves computing the exact result represented by floating points, then round accordingly. Secondly, espilon can be used to calculate better roundoff. Espilon is the smallest value that can be added in a computer. This measures the computer's granularity of coverage. Rounding to the enarest espilon is a great way to preserve accuracy during floating point arithmetic. One incorrect way to do roundoff is the "grade school algorithm". This happens if the last digit is rounded up if it is 5 or more, and down if less. This can cause results to wander, leading the result further from the best answer. Another incorrect method of roundoff happens in subtraction. For example, when subtracting nearly equal values, the most significant digits can calcel, leading to results that can be far off.  
